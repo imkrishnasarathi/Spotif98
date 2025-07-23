@@ -30,7 +30,7 @@ ul {
 #center {
     display: flex;
     justify-content: center;
-    flex: 1;
+    align-items: center;
 }
 
 #right {
@@ -39,6 +39,12 @@ ul {
     gap: 1em;
     align-items: center;
     flex: 1;
+}
+
+input[type="text"] {
+    width: 10em;
+    min-width: 10em;
+    height: 1.5em;
 }
 
 #logo,
