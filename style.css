@@ -1,13 +1,52 @@
-body{
+body {
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
 }
 
-nav{
+nav {
     height: 8%;
-    overflow: hidden;
     background-color: darkgrey;
     display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0 1em;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
+    flex: 1;
+}
+
+#logo,
+#notif,
+#pfp {
+    height: 3em;
+}
+
+#pfp {
+    cursor: pointer;
 }
