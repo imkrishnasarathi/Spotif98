@@ -6,7 +6,8 @@ body{
 }
 
 nav{
-    height: 20rem;
+    height: 8%;
     overflow: hidden;
     background-color: darkgrey;
+    display: flex;
 }
